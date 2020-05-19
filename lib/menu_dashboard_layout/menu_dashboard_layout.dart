@@ -78,7 +78,7 @@ class _MenuDashboardLayoutState extends State<MenuDashboardLayout> with SingleTi
                   slideAnimation: _slideAnimation,
                   menuAnimation: _menuScaleAnimation,
                   selectedIndex: findSelectedIndex(navigationState),
-                  onMenuItemClicked: onMenuItemClicked
+                  onMenuItemClicked: onMenuTap
                 );
               },
             ),
